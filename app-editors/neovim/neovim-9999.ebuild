@@ -73,12 +73,12 @@ PATCHES=(
 if [[ ${PV} == 9999 ]]; then
 	PATCHES+=(
 		"${FILESDIR}/${PN}-9999-cmake_lua_version.patch"
-		"${FILESDIR}/${PN}-9999-cmake-darwin.patch"
+		#"${FILESDIR}/${PN}-9999-cmake-darwin.patch"
 	)
 else
 	PATCHES+=(
 		"${FILESDIR}/${PN}-0.4.4-cmake_lua_version.patch"
-		"${FILESDIR}/${PN}-0.7.2-cmake-darwin.patch"
+		#"${FILESDIR}/${PN}-0.7.2-cmake-darwin.patch"
 	)
 fi
 
