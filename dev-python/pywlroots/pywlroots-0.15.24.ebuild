@@ -28,7 +28,7 @@ DEPEND="
 		dev-python/pywayland[${PYTHON_USEDEP}]
 		dev-python/python-xkbcommon[${PYTHON_USEDEP}]
 	')
-	<gui-libs/wlroots-0.16:=[X]
+	>=gui-libs/wlroots-0.16:=[X]
 "
 RDEPEND="${DEPEND}
 	${PYTHON_DEPS}
